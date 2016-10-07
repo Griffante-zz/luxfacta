@@ -35,7 +35,9 @@ Para mais detalhes sobre o GIT, confira esse [Guia Prático](http://rogerdudler.
 
 ### 2 - Banco de Dados
 Crie uma base de dados, por exemplo, no MySQL:
-CREATE DATABASE luxfacta;
+
+        CREATE DATABASE luxfacta;
+
 
 Configure os arquivos:
 
