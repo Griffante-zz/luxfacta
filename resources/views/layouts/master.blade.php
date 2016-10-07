@@ -67,7 +67,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ url('') }}">Luxfacta</a>
+                    <!--<a class="navbar-brand" href="{{ url('') }}">Luxfacta</a>-->
+                    <a class="navbar-brand" href="{{ url('') }}"><img src="{{asset('img/logo.png')}}" width="120" height="40" data-pin-nopin="true" title="Luxfacta"></a>
                 </div>
                 <!-- Top Menu Items -->
                 @include('layouts.topmenu')
