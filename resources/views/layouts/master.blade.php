@@ -12,9 +12,10 @@
         <title>Luxfacta - @yield('title')</title>
 
         <!-- Bootstrap Core CSS -->
-        <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+        <!--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">-->
 
         <!-- Custom CSS -->
+        <link href="{{asset('css/luxfacta.min.css')}}" rel="stylesheet">
         <link href="{{asset('css/sb-admin.css')}}" rel="stylesheet">
 
         <!-- Morris Charts CSS -->
@@ -75,7 +76,7 @@
                 <!-- /.navbar-collapse -->
             </nav>
 
-            <div id="page-wrapper">
+            <div>
 
                 <div class="container-fluid">
                     @yield('content')
