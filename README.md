@@ -17,11 +17,6 @@ O Framework Laravel utilizado nesta aplicação é compatível com os seguintes 
 * SQL Server
 
 Habilite a extensão PHP PDO para o banco de dados desejado.
-Caso queira utilizar a base de dados populada para o banco de dados MySQL, [clique aqui](https://github.com/Griffante/luxfacta/blob/master/luxfacta.sql).
-Caso queria trabalhar com uma base de dados vazia, execute o comando abaixo para criar a estrutura em seu banco de dados:
-
-        php artisan migrate
-  
 
 ## Passo-a-Passo
 
@@ -74,6 +69,13 @@ Configure os arquivos:
         DB_USERNAME=root
         DB_PASSWORD=root
     
+ 
+Caso queira utilizar a base de dados populada para o banco de dados MySQL, [clique aqui](https://github.com/Griffante/luxfacta/blob/master/luxfacta.sql).
+Caso queria trabalhar com uma base de dados vazia, execute o comando abaixo para criar a estrutura em seu banco de dados:
+
+        php artisan migrate
+  
+
  
 ### 3 - Apache Config
  
